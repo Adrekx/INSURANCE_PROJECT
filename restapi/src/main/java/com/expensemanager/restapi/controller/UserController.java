@@ -16,7 +16,7 @@ public class UserController {
     private UserService userservice;
 
 
-
+    //Get all users
     @GetMapping("/profile")
     public ResponseEntity<User> readUser()
     {
